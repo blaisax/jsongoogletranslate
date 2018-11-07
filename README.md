@@ -10,7 +10,6 @@ Quick tool for lazy translators
 
 ```javascript
 const jsonGoogleTranslate = require('@blaiv/json-google-translate');
-// const jsonGoogleTranslate = require('./');
 
 const config = {
   API_KEY: "YOUR_GOOGLE_API_KEY",
