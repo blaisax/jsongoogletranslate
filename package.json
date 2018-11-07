@@ -1,6 +1,6 @@
 {
   "name": "@blaiv/json-google-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick tool for lazy translators ",
   "main": "index.js",
   "keywords": [
