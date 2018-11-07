@@ -113,7 +113,7 @@ const main = async ({ API_KEY, TRANSLATIONS_FOLDER = './translations', BASE_LANG
   Object.keys(translated).forEach((lang) => {
     const content = JSON.stringify(translated[lang], null, 2);
     fs.writeFile(`${directoryPath}/${lang}.json`, content, 'utf8', () => {
-        process.stderr.write(`Wrote ${0} translations to ${lang}.json`);
+        process.stderr.write(`Wrote ${stats[lang] || 0} translations to ${lang}.json`);
         addCheckmark();
         newLine()
     });
