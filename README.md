@@ -1,5 +1,4 @@
 # Json Google-Translate
-=========
 
 Quick tool for lazy translators
 
