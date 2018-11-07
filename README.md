@@ -8,7 +8,8 @@ Quick tool for lazy translators
 
 ## Usage
 
-`const jsonGoogleTranslate = require('@blaiv/json-google-translate');
+```javascript
+const jsonGoogleTranslate = require('@blaiv/json-google-translate');
 // const jsonGoogleTranslate = require('./');
 
 const config = {
@@ -17,6 +18,6 @@ const config = {
   BASE_LANGUAGE: "en"
 }
 jsonGoogleTranslate(config);
-`
+```
 ##
 
