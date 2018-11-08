@@ -1,4 +1,4 @@
-# Json Google-Translate
+# Json Google Translate
 
 Quick tool for lazy translators using i18n like json translations files.
 
@@ -26,7 +26,7 @@ Enter your api key, point to the translations folder relative to the folder you 
 │   └── fr.json                     # it can be an empty json file
 ```
 
-# index.js:
+### index.js:
 
 ```javascript
 const jsonGoogleTranslate = require('@blaiv/json-google-translate');
@@ -38,7 +38,7 @@ const config = {
 }
 jsonGoogleTranslate(config);
 ```
-# translations/en.json
+### translations/en.json
 
 ```
 {
@@ -46,7 +46,7 @@ jsonGoogleTranslate(config);
 }
 ```
 
-# translations/es.json
+### translations/es.json
 
 ```
 {
@@ -54,7 +54,7 @@ jsonGoogleTranslate(config);
 }
 ```
 
-# translations/fr.json
+### translations/fr.json
 
 ```
 {
