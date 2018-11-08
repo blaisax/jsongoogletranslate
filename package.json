@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Quick tool for lazy translators ",
   "main": "index.js",
+  "repository": "github:blaisax/jsongoogletranslate",
   "keywords": [
     "translate",
     "google",
