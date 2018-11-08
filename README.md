@@ -1,4 +1,4 @@
-# Json Google Translate
+# Json Google Translate for node
 
 Quick tool for lazy translators using i18n like json translations files.
 
