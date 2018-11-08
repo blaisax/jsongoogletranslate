@@ -18,13 +18,16 @@ Enter your api key, point to the translations folder relative to the folder you 
 
 
 ## Example
+```
 ├── index.js
 ├── translations                    # translations folder
 │   ├── en.json                     # base language containing all language literals
 │   ├── es.json                     # another language containing some filled language literals or empty literals.
 │   └── fr.json                     # it can be an empty json file
+```
 
-index.js:
+# index.js:
+
 ```javascript
 const jsonGoogleTranslate = require('@blaiv/json-google-translate');
 
@@ -35,7 +38,30 @@ const config = {
 }
 jsonGoogleTranslate(config);
 ```
+# translations/en.json
+
+```
+{
+  "hello": "hello"
+}
+```
+
+# translations/es.json
+
+```
+{
+  "hello": ""
+}
+```
+
+# translations/fr.json
+
+```
+{
+  
+}
+```
 
 Run `node index.js`
-##
+
 
