@@ -62,6 +62,6 @@ jsonGoogleTranslate(config);
 }
 ```
 
-Run `node index.js`
+Run `node index.js` and missing translations will be filled automatically on each json file.
 
 
